@@ -42,8 +42,6 @@ body {
   color: var(--bcg-focus-btn-color);
 
   font-family: Raleway, sans-serif;
-  font-style: normal;
-  font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
@@ -72,7 +70,6 @@ body {
 .auth-nav .link {
   color: var(--text-color);
 
-  font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
@@ -91,7 +88,6 @@ body {
 .hero-title {
   color: var(--hero-btntext-color);
 
-  font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
   text-align: center;
@@ -105,10 +101,15 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
-  /* display: flex;
-  align-items: center; */
   text-align: center;
   letter-spacing: 0.06em;
+
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  color: var(--bcg-focus-btn-color);
+  background-color: var(--hero-btntext-color);
 }
 
 /* --features-- */
@@ -123,7 +124,6 @@ body {
 .features .text {
   color: var(--text-color);
 
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -143,7 +143,6 @@ body {
 .team .text {
   color: var(--text-color);
 
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
@@ -156,18 +155,24 @@ body {
 .footer-list .address-link {
   color: var(--hero-btntext-color);
 
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 }
+.footer-list .address-link:hover,
+.footer-list .address-link:focus {
+  color: var(--bcg-focus-btn-color);
+}
 .footer .link {
   color: var(--text-color);
 
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
+}
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--bcg-focus-btn-color);
 }
 
 /* _______portfolio_______ */
@@ -180,8 +185,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
-  /* text-align: center; */
   letter-spacing: 0.03em;
+
+  cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
@@ -201,7 +207,6 @@ body {
 .filter .text {
   color: var(--text-color);
 
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
